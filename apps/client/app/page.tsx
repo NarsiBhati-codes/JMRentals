@@ -1,3 +1,9 @@
+import { Code } from "@repo/ui/code";
+
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <Code />
+    </div>
+  );
 }
