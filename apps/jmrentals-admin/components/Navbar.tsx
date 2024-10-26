@@ -1,5 +1,6 @@
 "use client";
 
+import { ModeToggle } from "@repo/ui";
 import Image from "next/image";
 
 export default function Navbar() {
@@ -19,7 +20,9 @@ export default function Navbar() {
           </li>
         </ul>
         <ul className="flex items-center">
-          <li>{/* <ModeToggle /> */}</li>
+          <li>
+            <ModeToggle />
+          </li>
         </ul>
       </nav>
     </header>
